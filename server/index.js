@@ -68,7 +68,7 @@ const start = async () => {
     });
     const io = new Server(server, {
       cors: {
-        origin: "https://chat-app-xv6u.onrender.com",
+        origin: "https://chat-app-3xwq.onrender.com",
       },
       pingTimeout: 60000, //The amount of time it will wait while being inactive.
     });
